@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ruleset>
+    <description>Laravel Coding Standard</description>
+    <file>app</file>
+    <file>tests</file>
+    <arg value="np" />
+    <exclude-pattern>*/migrations/*</exclude-pattern>
+    <rule ref="PSR2" />
+</ruleset>
